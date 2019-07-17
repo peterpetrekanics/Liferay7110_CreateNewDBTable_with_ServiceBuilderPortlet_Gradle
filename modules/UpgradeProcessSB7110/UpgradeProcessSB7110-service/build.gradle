@@ -6,6 +6,9 @@ dependencies {
 	compileOnly group: "org.osgi", name: "org.osgi.core"
 	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
 	compileOnly project(":modules:UpgradeProcessSB7110:UpgradeProcessSB7110-api")
+	
+	compile group: "com.liferay", name: "com.liferay.portal.upgrade.api", version: "2.0.3"
+	
 }
 
 buildService {
