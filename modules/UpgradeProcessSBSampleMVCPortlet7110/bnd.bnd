@@ -1,0 +1,4 @@
+Bundle-Name: UpgradeProcessSBSampleMVCPortlet7110
+Bundle-SymbolicName: com.liferay.test.SampleMVCPortlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.test.constants
